@@ -20,6 +20,6 @@ public class VisserviceoneApplication {
 
 	@GetMapping(value="/message")
 	public String getData(){
-		return this.message;
+		return null;
 	}
 }
